@@ -1,0 +1,24 @@
+* {
+    font-family: "Courier New", sans-serif;
+}
+
+h1 {
+    background-color: orange;
+    color: purple;
+    text-align: center;
+}
+
+#nav {
+    list-style: none;
+}
+
+ul a {
+    color: firebrick;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: orangered;
+    color: white;
+}
