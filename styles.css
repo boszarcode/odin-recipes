@@ -1,24 +1,42 @@
 * {
     font-family: "Courier New", sans-serif;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
 h1 {
     background-color: orange;
     color: purple;
     text-align: center;
+    margin: 10px;
+    padding: 5px;
 }
 
-#nav {
-    list-style: none;
+div {
+    border: 10px;
+}
+
+.nav li {
+    display: inline;
+}
+
+ul {
+    margin: 20px;
 }
 
 ul a {
+    text-decoration: none;
     color: firebrick;
     font-weight: bold;
     font-size: 20px;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid rgb(240, 168, 24);
 }
+
 
 h2 {
     background-color: orangered;
     color: white;
+    margin: 10px;
 }
